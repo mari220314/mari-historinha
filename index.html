@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>A escolha de um filme</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="duas pessoas olhando a tela de um laptop com várias opções de filmes">
+            <p>É uma noite de sexta-feira, e você e seu amigo estão tentando decidir qual filme assistir. Vocês já passaram horas discutindo, mas ainda não chegaram a uma conclusão. As opções estão entre três filmes: uma comédia, um suspense ou um drama emocionante. Qual você escolhe?</p>
+            <button class="btn-proximo" data-proximo="1">Comédia</button>
+            <button class="btn-proximo" data-proximo="2">Suspense</button>
+            <button class="btn-proximo" data-proximo="3">Drama</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>Você escolhe a comédia! Seu amigo sorri, feliz com a escolha. "Eu estava precisando de umas boas risadas", ele diz. Durante o filme, vocês se divertem e riem juntos de cada cena hilária. Depois, sentem-se leves e de bom humor. O que vocês fazem agora?</p>
+            <button class="btn-proximo" data-proximo="4">Fazer uma maratona de comédias</button>
+            <button class="btn-proximo" data-proximo="5">Sair para pegar algo para comer</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Você escolhe o suspense! O clima fica mais tenso à medida que o filme avança, cheio de reviravoltas e mistérios. Você e seu amigo ficam completamente envolvidos, tentando adivinhar o que vai acontecer a seguir. Quando o filme termina, ambos estão pensativos e impressionados. O que vocês fazem?</p>
+            <button class="btn-proximo" data-proximo="6">Discutir as teorias sobre o final</button>
+            <button class="btn-proximo" data-proximo="7">Assistir outro suspense para manter o clima</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>Você escolhe o drama! O filme é intenso e cheio de emoções, com momentos tocantes que fazem você e seu amigo refletirem sobre a vida. Vocês até derramam algumas lágrimas em certas cenas mais profundas. Quando o filme acaba, o ambiente está mais calmo e introspectivo. O que vocês fazem?</p>
+            <button class="btn-proximo" data-proximo="8">Conversar sobre as mensagens do filme</button>
+            <button class="btn-proximo" data-proximo="9">Mudar para um filme mais leve para animar o clima</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <p>Vocês decidem fazer uma maratona de comédias! É risada garantida a noite inteira, enquanto assistem filme após filme. Vocês acabam a noite se sentindo leves e felizes, agradecidos por terem escolhido se divertir juntos.</p>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Depois de assistir a comédia, vocês decidem sair para comer algo. A noite continua divertida, e vocês aproveitam para conversar e rir sobre as cenas mais engraçadas enquanto comem um lanche gostoso.</p>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>Vocês passam um bom tempo discutindo as teorias sobre o final do filme de suspense. Será que o personagem principal sabia de tudo desde o começo? Será que aquele detalhe foi uma pista oculta? A conversa rende e vocês se divertem trocando ideias e suposições.</p>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Vocês decidem assistir outro suspense para manter o clima tenso e cheio de mistério. O segundo filme é ainda mais cheio de reviravoltas, e vocês mal conseguem piscar, imersos na trama!</p>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Depois do drama emocionante, vocês decidem conversar sobre as mensagens profundas do filme. Discutem sobre como as relações humanas podem ser complexas e como os personagens lidaram com as adversidades. É uma conversa que aproxima ainda mais vocês dois.</p>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <p>Sentindo que o drama foi um pouco pesado, vocês decidem mudar para um filme mais leve e divertido. Escolhem uma comédia e, logo, o ambiente fica mais descontraído, com risadas preenchendo a sala.</p>
+        </div>        
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
